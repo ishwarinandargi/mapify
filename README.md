@@ -65,10 +65,20 @@ The project represents locations as vertices in a weighted graph, while the dist
 29. Jammu and Kashmir
 30. Ladakh
 
+## Graph Representation
+
+The following hand-drawn weighted graph represents the states and regions used in Mapify. Each numbered point is a location, and each connecting line shows an edge with its corresponding distance.
+
+<p align="center">
+  <img src="assets/mapify-graph.png" alt="Mapify weighted graph of Indian states and regions" width="700">
+</p>
+
 ## Project Structure
 
 ```text
 Mapify/
+├── assets/
+│   └── mapify-graph.png
 ├── mapify.c
 └── README.md
 ```
